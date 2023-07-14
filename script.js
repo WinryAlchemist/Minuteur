@@ -18,7 +18,7 @@ const timer = () => {
 
         //On démare le timer
         setTimeout(() => {
-            audio.volume = 0.75;
+            //On lance l'audio
             audio.play();
         }, time);
 
